@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./@fortawesome/fontawesome-free/css/all.css" />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./jquery/dist/jquery.js" defer></script>
+    <script src="./handlebars/dist/handlebars.js" defer></script>
+    <script src="APIManager.js" defer></script>
+    <script src="Renderer.js" defer></script>
+    <script src="main.js" defer></script>
+    <title>My Expenses</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top bg-success">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand d-flex justify-content-center align-items-center gap-3"
+          href="#"
+        >
+          <img
+            src="./assets/logo.png"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block align-text-top"
+          />
+          <span class="fs-3 fw-bolder text-white">My Expenses</span>
+        </a>
+        <div
+          class="me-4 d-flex justify-content-center align-items-center btn-group"
+          role="group"
+        >
+          <button
+            type="button"
+            class="btn btn-success px-4 py-3"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            data-bs-title="Add Expense"
+          >
+            <i
+              class="fa-solid fa-file-circle-plus fs-3 fw-bolder text-white"
+            ></i>
+          </button>
+          <button
+            type="button"
+            class="btn btn-success px-4 py-3"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            data-bs-title="Edit Expense"
+          >
+            <i class="fa-solid fa-pen-to-square fs-3 fw-bolder text-white"></i>
+          </button>
+          <button
+            type="button"
+            class="btn btn-success px-4 py-3"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            data-bs-title="Search"
+          >
+            <i
+              class="fa-solid fa-magnifying-glass fs-3 fw-bolder text-white"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
